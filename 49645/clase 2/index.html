@@ -1,0 +1,188 @@
+<!--inicio de codigo-->
+<!--etiqueta que nos menciona el tipo de documento -->
+<!DOCTYPE html>
+<!-- determina donde inicia y termina la estructura basica de html -->
+<html lang="en">
+    <!-- etiqueta head:brinda inf a los controles de busqueda -->
+<head>
+    <!-- determina el tipo de caracteres -->
+    <meta charset="UTF-8">
+    <!-- etiqueta que hace que nuestro sitio web se adapte al alcho de distintos dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- le brinda el nombre a la pestaña del buscador -->
+    <title>mi primer pagina</title>
+    <!-- Aplicamos etiqueta de estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- body nos permite que todo nuestro contenido se vea en el buscador es lo que va a ver el usuario-->
+<body>
+
+    <!-- header: etiqueta que brinda meta informacion a los motores de busqueda -->
+    <header>
+        <nav>
+            <a href="./pages/quienes-somos.html">quienes somos</a>
+            <a href="index.html">inicio</a>
+
+        </nav>
+
+    </header>
+
+    
+
+    <!-- las 3 etiquetas fundamentales que tiene que tener cualquier html son :
+    header : es la cabecera
+    main: es la parte principal o contenido del html
+    footer: es el pie de pagina -->
+
+    <main>
+        <h1>Te damos la bienvenida</h1>
+        <section>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum similique ad magni asperiores facilis illo molestias sunt molestiae esse, aliquid aspernatur omnis quisquam tempora eum culpa ipsam ut incidunt cumque.</p>
+        </section>
+        <section>
+             <ol>
+                
+                <li>poner el agua</li>
+                <li>cambiar la yerba</li>
+                <li>poner el agua en el termo</li>
+                <li>cebar el mate</li>
+                <li>disfrutar</li>
+        
+        
+              </ol>    
+        </section>
+        <hr>
+
+        <h2>Formulario de contacto</h2>
+        <p>Por favor, complete el formulario a continuacion</p>
+
+        <article>
+            <!-- form: define un formulario -->
+            <form>
+                <!-- fieldset: agrupa elementos relacionados -->
+                <fieldset>
+                    <!-- legend:describe la utilidad del formulario -->
+                    <legend>Informacion personal</legend>
+
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" required placeholder="ingrese su nombre">
+
+                    </div>
+                    <br>
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" required placeholder="ingrese su apellido">
+
+                    </div>
+                    <br>
+
+                    <div>
+                        
+                        <label>Color a elegir:</label>
+                        <label>verde</label>
+                        <input type="radio">
+                        <label>Naranja</label>
+                        <input type="radio">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label>Pais</label>
+                        <select>
+                            <option>Seleccionar pais</option>
+                            <option>Argentina</option>
+                            <option>Colombia</option>
+                            <option>Mexico</option>
+
+                        </select>
+
+                    </div>
+                    <br>
+                    <div>
+                        <label>Comentarios</label>
+                        <textarea cols="20" rows="5"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Correo electronico</label>
+                        <input type="email" placeholder="hola@ejemplo.com">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Telefono</label>
+                        <input type="number" placeholder="ingrese su telefono">
+                    </div>
+                    <br>
+                    <input type="checkbox" >
+                    <label>Suscribirse al newletter</label>
+                    <br><br>
+
+                    <button type="submit">Enviar</button>
+
+                </fieldset>
+
+
+            </form>
+
+        </article>
+    </main>
+
+    <footer>
+        <a href="https://www.Tiktok.com">Tiktok</a>
+
+    </footer>
+    
+
+    
+      
+
+
+
+</body>
+<!-- etiqueta de cierre del html -->
+</html>
+
+<!-- en html hay dos tipos de etiquetas:
+    etiquetas de apertura y cierre y etiquetas solo de apertura -->
+
+    <!-- las etiquetas h1 ( HEADING) son las que nos permiten darle un encabezado a nuestros sitios -->
+    <!--  <h1>HOLA MUNDO</h1>
+    <H2>SOY UN SUBTITULO</H2>
+    <H3>GOKU</H3>
+    <H4>GOHAN</H4>
+    <H5>KAKAROTO</H5>
+    <H6>KRIILIN</H6>-->
+
+    <!-- ETIQUETA DE PARRAFO -->
+    <!-- <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nisi sequi laboriosam quae odio ratione dolor veniam accusamus. Expedita similique ipsa nemo. Qui, debitis. Blanditiis vero reiciendis enim quo nesciunt.</P> -->
+    
+    <!-- etiquetas de caja o bloque -->
+    <!-- <div>Etiqueta de caja</div> -->
+
+    <!-- etiquetas anchors o ancla nos permite enlazar nuestro html a otro html o tambien a un enlace externo/ href: hipervinculo de referencia escribir el sitio dentro de las "" y fuera de las comillas como lo va a ver el usuario-->
+
+      <!-- <a href="https://www.google.com">ir a google</a>hipervinculos absolutos: van por fuera de nuestro path o carpeta raiz -->
+
+      <!-- etiquetas ol: order list o lista ordenada -->
+      <!-- <ol> -->
+        <!-- etiquetas li: list item o etiquetas de lista -->
+        <!-- <li>poner el agua</li>
+        <li>cambiar la yerba</li>
+        <li>poner el agua en el termo</li>
+        <li>cebar el mate</li>
+        <li>disfrutar</li> -->
+
+
+      <!-- </ol> -->
+
+      <!-- etiquetas ul: unorderer list o listas sin orden -->
+      <!-- <ul>
+        <li>futuro programer</li>
+        <li>futuro sr</li>
+        <li>programmer front end</li>
+        <li>futuro en cibersecurity</li>
+        <li>future full stack dev</li>
+
+
+      </ul> -->

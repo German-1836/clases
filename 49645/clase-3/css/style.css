@@ -1,0 +1,106 @@
+/* 
+Existen dos maneras fundamentales de darle estilos a los elementos/ etiquetas html
+
+1- mediante selector de etiquetas o tambien llamadas selector de elementos
+
+2- mediante selector de clases
+
+*/
+    /* se aplican estilos mediante  propiedad: valor;*/
+    /* background-color: coral; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/* Aplicamos estilos al header*/
+header{
+
+    background-color:#273a2d
+}
+header nav{
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+}
+
+header nav a{
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Aplicamos estilos al main */
+h1{ 
+    text-align: center;
+}
+
+main{
+
+    background-color: #b38471;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main section{
+    margin: 5px;
+}
+
+main section div{
+    width: 19rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main section div img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+main section div h3{
+    text-align: center;
+    font-size: large;
+    color: #273a2d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main section div p{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    line-height: 30px;
+}
+/* aplicamos estilos al footer */
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #5c5e36;
+    flex-wrap: wrap;
+} 
+footer .copy{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+}
+footer .redes a{
+    padding: 5px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}

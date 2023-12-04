@@ -1,0 +1,28 @@
+
+
+// $color-fondo: chocolate
+@import "mixins";
+
+header{
+    background-color: chocolate;
+
+    nav{
+        text-align: center;
+        // Mediante el include traemos los estilos de flex
+        @include flex;
+        
+    }
+
+    a{
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-size: xx-large;
+
+        &:hover {
+            color: black;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}

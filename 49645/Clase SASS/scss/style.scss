@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import "partials/header";
+@import "partials/mixins.scss";
+
+//Creamos una variable para reutilizar
+// $color-fondo: chocolate
+
+
+
+// header{
+//     background-color: chocolate;
+
+//     nav{
+//         text-align: center;
+//         display: flex;
+//         justify-content: space-around;
+//     }
+
+//     a{
+//         color: aliceblue;
+//         font-family: Verdana, Geneva, Tahoma, sans-serif;
+//         text-decoration: none;
+//         font-size: xx-large;
+
+//         &:hover {
+//             color: black;
+//             font-weight: bold;
+//             text-decoration: underline;
+//         }
+//     }
+// }
+
+main{
+    @include flex;
+
+    .tarjetas{
+        &:hover{
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        width: 200px;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-top: 20px;
+        transition: box shadow 0.3s ease-in-out;
+        
+
+        img{
+            width: 100%;
+            height: fit-content;
+        }
+
+
+    }
+}
